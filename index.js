@@ -1,1 +1,3 @@
-module.exports = require('./lib/panino');
+"use strict";
+
+module.exports = require("./lib/panino");
