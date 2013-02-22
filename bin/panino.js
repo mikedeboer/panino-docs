@@ -9,8 +9,8 @@ var Path = require("path");
 var Async = require("async");
 
 // internal
-var Panino = require("..");
-var Template = require("../lib/panino/common").template;
+var Panino = require("./../index");
+var Template = require("./../lib/panino/common").template;
 
 function exit(err) {
     if (err) {
